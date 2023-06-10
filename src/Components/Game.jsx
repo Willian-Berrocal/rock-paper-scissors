@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const App = () => {
+const Game = () => {
   const [userChoice, setuserChoice] = useState(null);
   const [computerChoice, setComputerChoice] = useState(null);
   const [result, setResult] = useState(null);
@@ -51,4 +51,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Game;
