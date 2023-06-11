@@ -1,0 +1,87 @@
+#Game {
+  margin: 0 10%;
+  font-family: "Montserrat";
+}
+#header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 80%;
+  gap: 5%;
+}
+.arrow {
+  position: relative;
+  max-width: 80%;
+  color: #8176af;
+}
+.arrow-line {
+  display: inline-block;
+  height: 4px;
+  width: 80%;
+  background: #8176af;
+  position: absolute;
+  top: 40%;
+}
+.arrow-right {
+  display: inline-block;
+  height: 2px;
+  width: 25px;
+  border-left: 30px solid #8176af;
+  border-top: 10px solid #302c42;
+  border-bottom: 10px solid #302c42;
+  position: absolute;
+  top: 38px;
+  right: 2%;
+}
+h3,
+h2,
+.phrase {
+  color: white;
+}
+.number-round {
+  border-radius: 40px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  font-size: 1.1em;
+  text-align: center;
+  max-width: 180px;
+}
+.won-round {
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  border-radius: 40px;
+  border: none;
+  font-size: 1.1em;
+  padding: 8px 24px;
+  width: fit-content;
+}
+img {
+  border-top-left-radius: 65%;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 65%;
+}
+
+#options {
+  display: grid;
+  margin-top: 8%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10%;
+}
+#options button {
+  margin: 30px 20%;
+}
+.img-status {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+
+.buttons-choice {
+  display: flex;
+  flex-direction: column;
+}
+.exit,
+.new-game {
+  margin-top: 20px;
+}
