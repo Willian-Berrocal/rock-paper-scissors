@@ -15,7 +15,7 @@ const CreateJoinGame = () => {
       >
         Log Out
       </button>
-      <h1>Create or Join Game</h1>
+      <h1 className="title">Create or Join Game</h1>
       <div className="main-create-join">
         <div className="create-game">
           <p>#{randomId}</p>
