@@ -1,0 +1,48 @@
+.signup-main {
+  margin: 0 10%;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 1.2em;
+}
+.signup-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80%;
+  gap: 5%;
+  margin-top: 6%;
+}
+.signup-content img {
+  max-width: 80%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 20%;
+}
+.form-and-others h2 {
+  line-height: 0px;
+}
+.signup-form {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.signup-form input {
+  font-size: 1.5em;
+  border-radius: 40px;
+  margin: 2% 0;
+  color: white;
+  background-color: #302c42;
+  border-color: white;
+  text-align: center;
+  width: fit-content;
+}
+form button {
+  margin-left: 50%;
+  margin-top: 40px;
+  justify-content: end;
+  width: fit-content;
+}
+.miau {
+  color: #8176af;
+}

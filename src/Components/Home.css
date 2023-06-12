@@ -11,7 +11,7 @@
   font-size: 5em;
 }
 .welcome p {
-  line-height: 10px;
+  line-height: 18px;
 }
 
 .neko-home h3,
@@ -20,6 +20,7 @@ h4 {
   line-height: 5px;
 }
 .neko-home img {
+  max-width: 80%;
   border-top-left-radius: 48%;
   border-top-right-radius: 20%;
   border-bottom-left-radius: 20%;

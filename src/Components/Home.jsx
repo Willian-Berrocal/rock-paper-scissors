@@ -7,7 +7,7 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <div className="neko-home">
-      <div className="content">
+      <div className="home-content">
         <div className="welcome">
           <h1>NEKO</h1>
           <h3>Welcome, my cat</h3>
@@ -16,7 +16,6 @@ const Home = () => {
           <p>Now you're team cats, NOT dogs, rabbits... other.</p>
           <p>We'll keep that in mind</p>
         </div>
-
         <div className="home-buttons">
           <button
             className="login"
