@@ -2,7 +2,36 @@
   margin: 3% 10%;
   font-family: "Montserrat";
   color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  gap: 5%;
+}
+.welcome h1 {
+  font-size: 5em;
+}
+.welcome p {
+  line-height: 10px;
+}
+
+.neko-home h3,
+h4 {
+  font-size: 1.5em;
+  line-height: 5px;
+}
+.neko-home img {
+  border-top-left-radius: 48%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 48%;
 }
 .neko-home h3 {
   color: #8176af;
+}
+
+.login {
+  margin: 40px 20px;
+}
+.signup {
+  margin: 40px 20px;
 }
