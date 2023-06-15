@@ -44,7 +44,7 @@ const Signup = () => {
               onChange={passwordHandler}
             />
             <input
-              type="password1"
+              type="password"
               name="password1"
               id="password1"
               placeholder="confirm password"
@@ -52,10 +52,7 @@ const Signup = () => {
             />
             <button
               type="submit"
-              className="login-button"
-              onClick={() => {
-                navigate("/CreateJoinGame");
-              }}
+              className="add-button"
             >
               Sign Up
             </button>
