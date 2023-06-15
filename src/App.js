@@ -1,9 +1,9 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./Components/Home";
 import Game from "./Components/Game";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
 import CreateJoinGame from "./Components/CreateJoinGame";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 function App() {
   return (
